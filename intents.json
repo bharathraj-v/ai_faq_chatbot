@@ -1,0 +1,154 @@
+{
+    "intents": 
+    [
+    {
+        "tag": "greeting",
+        "patterns": ["Hey there","Hi there","Hey","Hi","Yo","Hola","Good day","Sup?","Hey, nice to meet you"],
+        "responses": ["Hello","Hi","Good to see you","How may I help you?","What can I help you with?","Welcome to the Capital Bank. How may I help you?"],
+        "context": [""]
+    },
+    {
+        "tag": "farewell",
+        "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting with you, bye", "Till next time"],
+        "responses": ["Have a nice day","For further queries contact 1800-455-455, thank you","Thanks for choosing Capital Bank! bye"],
+        "context": [""]
+    },
+    {
+        "tag": "thanks",
+        "patterns": ["Great! Thank you","Thanks", "Thank you", "That's helpful", "Awesome, thanks","Thanks, appreciate it."],
+        "responses": ["It's my pleasure","Glad to be of service","In case you have any more queries, contact our 24/7 customer care, 1800-455-455" ],
+        "context": [""]
+    },
+    {
+        "tag": "identity",
+        "patterns": ["Who are you?","What's your name?","What are you?","What is this?"],
+        "responses": ["I am to answer your questions regarding Capital Bank","I'm here to help you out with various queries related to your account and the bank"],
+        "context": [""]
+    },
+    {
+        "tag": "use",
+        "patterns": ["How you could help me?", "What help you provide?", "How you can be helpful?","What's your use?","What is this bot for?","What do you do?"],
+        "responses": ["I can answer any of your questions regarding the policies of the Capital Bank, transaction limits, queries regarding accounts and cards, etc."],
+        "context": [""]
+    },
+    {
+        "tag":"customer_care",
+        "patterns":["What is the customer care number?","Contact customer care","Can you tell me the number to contact customer care?"],
+        "responses":["The 24/7 customer care number is 1800-455-455","You can contact the 24/7 customer care helpline number 1800-455-455"],
+        "context":[""]
+
+    },
+    {
+        "tag": "new_account",
+        "patterns":["How do I create a new account?","Create an account","Account creation","Can you tell me how to create a new account?","Making a new account","What do I need to do to create a new account?","New account criteria"],
+        "responses":["To create a new account, you can select the 'New Customer' option on our home page. From there, further instructions on creating the type of account you want "]
+    },
+    {
+        "tag": "minimum_balance",
+        "patterns": ["What is the minimum balance required in an account?","Minimum balance","What is the least amount of money required in an account?","How less money can I keep in my bank account?","Is there a minium balance limit?"],
+        "responses": ["The minimum balance in a savings account is Rs.5000 and Rs. 100000 in a current account."],
+        "context":[""]
+    },
+    {
+        "tag":"maintenance_minimum",
+        "patterns": ["Is there a maintenance fees for minimum balance?","Is there a penalty for not maintaining minimum balance?","Do I get a penalty for not maintaining minimum balance?","Penalty for non-maintenance of minimum balance","Charges for not maintaining minimum balance"],
+        "responses": ["Rs. 100 and Rs. 5000 shall be charged for not maintaining proper balance for Savings and Salary Account respectively. Please refer to the schedule of charges in your respective account"],
+        "context":[""]
+    },
+    {
+        "tag": "update_mobile_number",
+        "patterns": ["How do I update my mobile number?","Where do I update my mobile number?","How do I update the number linked to my account?","Update my mobile number"],
+        "responses": ["To update your mobile number, kindly login into your account and select the option 'Change Account Details' > 'Change Mobile Number' > Enter the current mobile number and then enter the new mobile number. Your mobile number shall be updated within 3 hours."],
+        "context":[""]
+    },
+    {
+        "tag": "update_email",
+        "patterns": ["Update my email linked to my account","How do I update my e-mail?","Can you tell me how to update my email?","Explain me updation of email"],
+        "responses": ["To update your E-mail ID linked to your account, kindly login into your account and select the option 'Change Account Details' > 'Change E-mail' > Enter the current E-mail ID and then enter the new E-mail ID. Your E-mail shall be updated within 3 hours."],
+        "context": [""]
+    },
+    {
+        "tag": "account_holder_name",
+        "patterns":["Update the name of the account holder","How to update account holder name?","Where do I update the name of the account holder?"],
+        "responses":["To update the name of the account holder, please visit the nearest branch along with the current account holder and an identity proof of the new owner of the account"],
+        "context":[""]
+    },
+    {
+        "tag":"stop_cheque_payment",
+        "patterns": ["How do I stop a cheque payment","Can I stop a cheque payment?","Can I halt a cheque payment?","Can I cancel a check payment?"],
+        "responses": ["It can be done through the branch, netbanking, mobile banking, and also by calling the customer care number"],
+        "context":[""]
+    },
+    {
+        "tag":"account_summary",
+        "patterns": ["How do I check my account balance?","Show me my account summary","Check my account balance","What is my account balance?","How much money is left in my account?","Account balance","Transaction history","List of transactions","What are the different transactions I've made?","Show me my transactions","Can you show me my account summary?","view account summary","view transaction history"],
+        "responses": ["To check your account summary, transaction history, and your account balance, kindly login into your account and select the 'Account Summary' option"],
+        "context":[""]
+    },
+    {
+        "tag":"transactions",
+        "patterns":["transaction limit","show me my transaction limit","how do I change my transaction limit?","change transaction limit for savings account","change transaction limit for current account","view transaction limit"],
+        "responses":["The default transaction limit for both a savings account and a current account is Rs. 100000. The maximum limit for a savings account is Rs. 1000000 and for a current account is Rs. 5000000. You can change your account limit by logging into your account and selecting 'Change Account Details' > 'Change Transaction Limit' > Enter the new limit > Save"],
+        "context":[""]
+    },
+    {
+        "tag":"change_address",
+        "patterns":["how to change address?","change address","change account address","can you tell me how to change my address?","how long does it take for address to change?","when will my address change?"],
+        "responses":["Please contact the nearest branch for changing your address. It shall take 7 days for your address to change."],
+        "context":[""]
+    },
+    {
+        "tag":"account_type",
+        "patterns":["view my account type","account type","change account type","how to change the type of account","how to I change my account type","show me my acount type"],
+        "responses":["Your account type is mentioned right below your profile in the welcome page. To change the type of your account, kindly contact your branch manager"],
+        "context":[""]
+    },
+    {   
+        "tag":"debit_card",
+        "patterns":["how do I apply for a new debit card?","apply for a debit card","debit card application","debit card","apply for a new debit card","renew my debit card","how do I renew my debit card?"],
+        "responses":["To apply for a new debit card, fill out the application form linked on our front page, or contact the nearest branch for applying for a new card. To renew your debit card, select the 'Update Expired Card' option. The new card shall be delivered in between 15 to 20 working days"],
+        "context":[""]
+    },
+    {
+        "tag":"credit_card",
+        "patterns":["how do I apply for a new credit card?","apply for a credit card","credit card application","credit card","apply for a new credit card","renew my credit card","how do I renew my credit card?"],
+        "responses":["To apply for a new credit card, fill out the application form linked on our front page, or contact the nearest branch for applying for a new card. To renew your credit card, select the 'Update Expired Card' option. The new card shall be delivered in between 15 to 20 working days"],
+        "context":[""]
+    },
+    {
+        "tag":"passbook",
+        "patterns":["How do I request for a passbook?","Where is my passbook?","How can I get a passbook for my account?","How to apply for new passbook?","new passbook"],
+        "responses":["A passbook shall be issued on the opening of an account. However, upon the pages of the passbook being filled, a new passbook can be issued by visiting the respective branch the account is linked to"],
+        "context":[""]
+    },
+    {
+        "tag":"block_card",
+        "patterns":["I lost my card","How do I block a card?","What do I do if I lose a card?","My card is lost","Block my card","I don't use this card anymore","I have a different card","My current card is useless"],
+        "responses":["In case of a card being lost or a card not being used anymore, you can contact customer care to request for the blocking of the particular card within 48 hours of it being lost or unused"],
+        "context":[""]
+    },
+    {
+        "tag":"loans",
+        "patterns":["What loans can I avail for?","Loans information","Loan availability","What loans can I get from the bank?","Does the bank provide loans?"],
+        "responses":["Capital Bank provides loans on various interest rates for various purposes, like Vehicle Loans, Home loans, Personal Loans, Student Loans, to name a few. To avail any of these on the specified interest rates, check the loan-info page on our website. For further information or order of payments regarding an availed loan, contact customer care."],
+        "context":[""]
+    },
+    {
+        "tag":"net_banking",
+        "patterns":["What is net banking?","How do I do net banking?","What are the rules of net banking?","Where is net banking?"],
+        "responses":["The net banking feature allows users to make transactions online. A unique account ID and password is provided to every customer, where the password is required to be changed every 3 months."],
+        "context":[""]
+    },
+    {
+        "tag":"password",
+        "patterns":["I forgot my password","Forgot password","Change password","How do I change my password?"],
+        "responses":["In case you've forgotten your password, click the 'Forgot Password' button on the login page. In case you want to change your password, login to your account and select 'Change Account Details' > 'Change Password'"]
+    },
+    {
+        "tag": "noanswer",
+        "patterns": [],
+        "responses": ["Sorry, can't understand you","Please give me more info", "Not sure I understand","Sorry, I'm currently incapable of understanding what you're trying to say","I'm not sure I understand, but you contact our 24/7 customer care, 1800-455-455" ],
+        "context": [""]       
+    }
+    ]
+}
