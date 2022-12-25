@@ -13,10 +13,14 @@ https://www.nltk.org/
 NLTK is a leading platform for building Python programs to work with human language data. It provides easy-to-use interfaces to over 50 corpora and lexical resources such as WordNet, along with a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning, wrappers for industrial-strength NLP libraries, and an active discussion forum.
 
 
-## Running the Chatbot
+## Running the Chatbot:
 1. ```pip install keras```
 2. ```pip install nltk```
 3. ```pip install tensorflow```
 4. In the Python Terminal, ```import nltk``` and call ```nltk.download()``` and download the NLTK data
 5. ```pip install numpy```
 6. Run app.py file
+
+
+## Screenshot of the working chatbot:
+![image](chatbot.png)
